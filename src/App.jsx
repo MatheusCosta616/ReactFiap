@@ -1,15 +1,15 @@
-import React from 'react';
+import Conteudo from "./assets/componentes/Conteudo";
+import Cabecalho from "./assets/componentes/cabecalho";
+
 
 export default function App() {
   return (
     <>
-      <div>
-        
-        <section>
-          <p><a href="/"></a></p>
-          <button onClick={() => alert("Hello World!")}>Aperta</button>
-        </section>
-      </div>
+    <Cabecalho/>
+    <Conteudo/>
+    <footer>
+      <p>&copy; 2021 React + Vite</p>
+    </footer>
     </>
   );
 }
